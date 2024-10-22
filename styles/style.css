@@ -621,3 +621,62 @@ hr {
     margin: 0 auto;
     padding: 35px;
 }
+
+
+
+/* creative section style */
+
+.creative {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+.creative-title {
+    max-width: 1060px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.creative-title::first-letter {
+    color: rgb(230, 83, 60);
+    font-size: 4rem;
+}
+
+/* .creative-title:hover {
+    background: rgb(69, 52, 49);
+    cursor: pointer;
+    border-radius: 40px;
+} */
+
+.creative-container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.column1>div,
+.column2>div,
+.column3>div {
+    width: 50%;
+}
+
+.cre-img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.cre-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.column1,
+.column2,
+.column3 {
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
