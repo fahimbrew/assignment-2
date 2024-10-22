@@ -1,0 +1,19 @@
+/* media query  */
+
+
+/* small devices */
+
+@media screen and (max-width:576px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .navbar {
+        align-items: center;
+        padding: 10px;
+    }
+}
