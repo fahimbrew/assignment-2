@@ -19,6 +19,7 @@
 
     .hero {
         flex-direction: column;
+        padding-left: 10px;
     }
 
     .hero-content {
