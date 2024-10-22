@@ -41,4 +41,22 @@
     .hero-profile {
         width: 100%;
     }
+
+    .habit-cards {
+        grid-template-columns: repeat(1, 1fr);
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .habit-description {
+        text-align: center;
+        width: calc(100% - 10%);
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    .habit-description h2 {
+        margin-bottom: 10px;
+        font-size: 2rem;
+    }
 }
