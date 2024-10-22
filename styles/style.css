@@ -611,7 +611,7 @@ th {
 hr {
     border: 2px solid rgba(255, 255, 255, 0.1);
     max-width: 100%;
-    text-align: center;
+    /* text-align: center; */
     margin-left: 15%;
     margin-right: 15%;
 }
