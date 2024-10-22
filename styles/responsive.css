@@ -60,4 +60,23 @@
         margin-bottom: 10px;
         font-size: 2rem;
     }
+
+    .run-container {
+        flex-direction: column;
+    }
+
+    .run-description {
+        width: 100%;
+    }
+
+    .run-container h2 {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .run-container .btn-primary {
+        margin-top: 25px;
+        width: 100%;
+
+    }
 }
